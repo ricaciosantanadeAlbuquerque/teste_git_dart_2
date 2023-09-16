@@ -31,7 +31,7 @@ void escolha(int op) {
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-
+      soma(valor1!, valor2!);
       break;
 
     case 2:
@@ -58,4 +58,13 @@ void escolha(int op) {
     default:
       print("Valor fora da faixa !");
   }
+}
+
+void soma(String valor1, String valor2) {
+  // conversao
+
+  int num1 = int.parse(valor1);
+  int num2 = int.parse(valor2);
+
+  print("Soma ${num1 + num2}");
 }
