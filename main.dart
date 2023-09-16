@@ -59,3 +59,12 @@ void escolha(int op) {
       print("Valor fora da faixa !");
   }
 }
+
+void soma(String valor1, String valor2) {
+  // conversao
+
+  int num1 = int.parse(valor1);
+  int num2 = int.parse(valor2);
+
+  print("Soma ${num1 + num2}");
+}
