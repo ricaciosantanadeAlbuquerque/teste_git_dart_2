@@ -15,6 +15,7 @@ void menu() {
   if (entradaOp!.isNotEmpty) {
     try {
       valor = int.parse(entradaOp);
+      escolha(valor);
     } catch (e) {
       throw Exception('Erro! O valor $valor não é um número');
     }
@@ -38,7 +39,7 @@ void escolha(int op) {
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-      
+
       break;
     case 3:
       print("Digite o primeiro valor ");
@@ -56,6 +57,5 @@ void escolha(int op) {
       break;
     default:
       print("Valor fora da faixa !");
-
   }
 }
