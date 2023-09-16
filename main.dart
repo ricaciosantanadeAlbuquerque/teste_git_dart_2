@@ -39,7 +39,7 @@ void escolha(int op) {
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-
+      subtracao(valor1!, valor2!);
       break;
     case 3:
       print("Digite o primeiro valor ");
@@ -69,10 +69,9 @@ void soma(String valor1, String valor2) {
   print("Soma ${num1 + num2}");
 }
 
-void subtracao(String valor1,String valor2){
-
+void subtracao(String valor1, String valor2) {
   int num1 = int.parse(valor1);
   int num2 = int.parse(valor2);
 
-   print("Soma ${num1 + num2}");
+  print("Soma ${num1 - num2}");
 }
