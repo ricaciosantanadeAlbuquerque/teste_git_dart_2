@@ -31,7 +31,7 @@ void escolha(int op) {
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-
+      soma(valor1!, valor2!);
       break;
 
     case 2:
