@@ -68,3 +68,11 @@ void soma(String valor1, String valor2) {
 
   print("Soma ${num1 + num2}");
 }
+
+void subtracao(String valor1,String valor2){
+
+  int num1 = int.parse(valor1);
+  int num2 = int.parse(valor2);
+
+   print("Soma ${num1 + num2}");
+}
