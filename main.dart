@@ -1,5 +1,5 @@
 void main() {
-  
+  menu();
 }
 
 void menu() {
