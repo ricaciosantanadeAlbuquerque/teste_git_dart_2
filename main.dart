@@ -46,7 +46,7 @@ void escolha(int op) {
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-
+      divisao(valor1!, valor2!);
       break;
     case 4:
       print("Digite o primeiro valor ");
@@ -76,4 +76,9 @@ void subtracao(String valor1, String valor2) {
   print("Subtração ${num1 - num2}");
 }
 
+void divisao(String valor1, String valor2) {
+  int num1 = int.parse(valor1);
+  int num2 = int.parse(valor2);
 
+  print('Divisão ${num1 / num2}');
+}
