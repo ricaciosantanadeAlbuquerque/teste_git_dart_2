@@ -82,3 +82,11 @@ void divisao(String valor1, String valor2) {
 
   print('Divisão ${num1 / num2}');
 }
+
+void multiplicao(String valor1,valor2){
+
+  int num1 = int.parse(valor1);
+  int num2 = int.parse(valor2);
+
+  
+}
