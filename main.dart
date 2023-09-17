@@ -46,14 +46,14 @@ void escolha(int op) {
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-      divisao(valor1!, valor2!);
+     
       break;
     case 4:
       print("Digite o primeiro valor ");
       String? valor1 = stdin.readLineSync();
       print("Digite o segundo valor ");
       String? valor2 = stdin.readLineSync();
-
+       divisao(valor1!, valor2!);
       break;
     default:
       print("Valor fora da faixa !");
