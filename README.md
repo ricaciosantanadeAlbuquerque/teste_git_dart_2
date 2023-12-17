@@ -34,4 +34,3 @@ Praticando os comandos do git
 
 [![celular](assets/image/fundo.jpeg)](https://www.google.com)
 
-### Imagem da Web
