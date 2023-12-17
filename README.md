@@ -47,3 +47,8 @@ print(num1 + num2 );
 
 ```
 
+###### Lista de checagem
+
+- [x] A
+- [] B
+- [x] C
