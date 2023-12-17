@@ -26,4 +26,12 @@ Praticando os comandos do git
 ### Imagem da web
 ![Moto](https://www.tecfil.com.br/wp-content/uploads/2021/12/TECFIL_SEO_IMAGENS_M7-1.jpg)
 
+## Links
+
+[google](https://www.google.com)
+
+[https://www.google.com](https://www.google.com)
+
+[![celular](assets/image/fundo.jpeg)](https://www.google.com)
+
 ### Imagem da Web
