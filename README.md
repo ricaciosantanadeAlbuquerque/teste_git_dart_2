@@ -39,9 +39,9 @@ Praticando os comandos do git
 
 ```Dart
 
-final int num1 = 10;
+const int num1 = 10;
 
-final int num2 = 25;
+const int num2 = 25;
 
 print(num1 + num2 );
 
