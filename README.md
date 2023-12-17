@@ -34,3 +34,16 @@ Praticando os comandos do git
 
 [![celular](assets/image/fundo.jpeg)](https://www.google.com)
 
+
+#### code
+
+```Dart
+
+final int num1 = 10;
+
+final int num2 = 25;
+
+print(num1 + num2 );
+
+```
+
